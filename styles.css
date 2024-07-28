@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('icecream1.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #333; 
+}
+
+header {
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(214,161,68,0.8431022067029936) 100%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.facts-section, .nutrition-section, .imagery-section {
+    margin-bottom: 20px;
+}
+
+.single-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.nutrition-section ul {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+.nutrition-section ul li {
+    list-style: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 300px; 
+    height: auto; 
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content label {
+    margin: 5px 0;
+}
+
+.footer-content input, .footer-content textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.footer-content button {
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.footer-content button:hover {
+    background-color: #d49400; 
+}
